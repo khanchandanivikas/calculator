@@ -1,0 +1,82 @@
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #EAEDEF;
+}
+
+.container {
+    height: 100%;
+    align-self: center;
+    background-color: #F6F8F8;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: -1px -1px 20px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 20%;
+}
+
+.button:nth-child(9) {
+    background-color: #000;
+}
+
+button {
+    outline: none;
+    border: none;
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: 1px 5px 5px rgba(163, 177, 198, 0.404), -5px -5px 10px rgba(255, 255, 255, 0.041);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #78848A;
+}
+
+.reset,
+.result {
+    grid-column: span 2;
+    width: 9rem;
+}
+
+.reset {
+    background-color: #E0D4E8;
+    color: #9028DF;
+}
+
+.result {
+    background-color: #9028DF;
+    color: #fff;
+}
+
+.delete {
+    background-color: #FEB92D;
+    color: #fff;
+}
+
+.operator {
+    color: #FEB92D;
+    background-color: #F3EEE1;
+}
+
+.input-container {
+    border-radius: 5px;
+    box-shadow: inset -3px -3px 5px rgba(94, 104, 121, 0.692), inset -3px -3px 7px #ffffffb0;
+    padding-right: 15px;
+    padding-top: 30px;
+}
+
+.input-text {
+    text-align: right;
+    height: 70px;
+    margin-bottom: 24px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #78848A;
+}
