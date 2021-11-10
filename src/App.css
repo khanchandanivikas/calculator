@@ -39,10 +39,18 @@ button {
     color: #78848A;
 }
 
+button:hover {
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+}
+
 .reset,
 .result {
     grid-column: span 2;
     width: 9rem;
+}
+
+.result:hover {
+    color: #9028DF;
 }
 
 .reset {
@@ -58,6 +66,10 @@ button {
 .delete {
     background-color: #FEB92D;
     color: #fff;
+}
+
+.delete:hover {
+    color: #FEB92D;
 }
 
 .operator {
